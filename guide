@@ -8,7 +8,7 @@ Network configuration:
 Check network_config for files
 
 update repositories:
-packer -Syu
+packman -Syu
 
 Packages to install:
 emacs-nox
@@ -20,6 +20,7 @@ apache
 vsftpd
 mlocate
 wget
+screen
 
 Create group web:
 groupadd web
@@ -48,3 +49,7 @@ Up to here, there is an image of all of it.
 ============
 Pulseaudio
 ============
+There is some issue with crackling.
+It is really really annoying and it seems like I couldn't find a solution to it.
+https://wiki.archlinux.org/index.php/Raspberry_Pi#Audio
+http://manurevah.com/blah/en/p/PulseAudio-Sound-over-the-network
